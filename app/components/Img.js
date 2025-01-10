@@ -1,12 +1,12 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-import footer from '/footer.png'
+// import footer from '/footer.png'
 function Img() {
   return (
     <div className="relative w-full border-t-4 border-b-4 border-custom-orange">
       <Image
-        src={footer} // Adjust to match the image name and path in your public folder
+        src="/footer.png" // Adjust to match the image name and path in your public folder
         alt="Construction"
         width={1920}
         height={600}
