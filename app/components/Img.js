@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-import footer from '../../public/footer.png'
+import footer from '/footer.png'
 function Img() {
   return (
     <div className="relative w-full border-t-4 border-b-4 border-custom-orange">

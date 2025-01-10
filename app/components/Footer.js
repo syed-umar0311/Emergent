@@ -1,12 +1,12 @@
-"use client";
+"use clinet";
 import React from 'react'
 import Image from 'next/image'
-import face from '../../public/face.png'
-import insta from '../../public/insta.png'
-import link from '../../public/link.png'
-import location from '../../public/location.png'
-import email from  '../../public/email.png'
-import call from '../../public/call.png'
+// import insta from '/insta.png'
+// import face from '../../public/face.png'
+// import link from '../../public/link.png'
+// import location from '../../public/location.png'
+// import email from  '../../public/email.png'
+// import call from '../../public/call.png'
 
 function Footer() {
   return (
@@ -15,32 +15,32 @@ function Footer() {
         {/* Contact Info */}
         <div className="flex-1">
           <ul>
-          <h3 className="text-lg font-bold ml-14 -mb-4">Email</h3>
+          <h3 className="text-lg font-bold ml-12 -mb-4">Email</h3>
 
 
-            <li className="flex items-center mb-2 ">
+            <li className="flex items-center mb-2  ">
               <span className="text-custom-orange mr-2"><Image
-              src={email}
+              src="/email.png" width={40} height={40} 
               alt="Email"
               /></span>
               contact@emergen.io
             </li>
-            <h3 className="text-lg font-bold ml-14 -mb-4">Call  Us</h3>
+            <h3 className="text-lg font-bold ml-12 -mb-4">Call  Us</h3>
 
 
             <li className="flex items-center mb-2">
               <span className="text-custom-orange mr-2"><Image
-              src={call}
+              src="/call.png" width={40} height={40}
               alt="call"
               /></span>
               +90 000000000
             </li>
-            <h3 className="text-lg font-bold ml-14 -mb-4 ">Address</h3>
+            <h3 className="text-lg font-bold ml-12 -mb-4 ">Address</h3>
 
 
             <li className="flex items-center">
               <span className="text-custom-orange mr-2"><Image
-              src={location}
+              src="/location.png" width={40} height={40}
               alt="location"
               /></span>
               ABC Residency Street #34, Country City
@@ -75,15 +75,15 @@ function Footer() {
           <h3 className="text-lg font-bold mb-4 font-poppins">Socials</h3>
           <div className="flex space-x-4 mb-4">
             <a href="#" className="text-custom-orange text-2xl hover:text-white"><Image
-              src={link}
+              src="/link.png" width={35} height={35}
               alt="link"
               /></a>
             <a href="#" className="text-custom-orange text-2xl hover:text-white"><Image
-              src={insta}
+              src="/insta.png" width={35} height={35}
               alt="insta"
               /></a>
             <a href="#" className="text-custom-orange text-2xl hover:text-white"><Image
-              src={face}
+              src="/face.png" width={35} height={35}
               alt="face"
               /></a>
           </div>
