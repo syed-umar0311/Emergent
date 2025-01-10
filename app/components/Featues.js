@@ -57,7 +57,7 @@ function Featues() {
         {/* Image */}
         <div className="flex justify-center ">
           <Image
-            src="/cam.png"
+            src="/Cam.png"
             width={500}
             height={500}
             alt="E3000 Hydronic Heater"
