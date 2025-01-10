@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Cam from '../../public/cam.png';
+// import Cam from '../../public/cam.png';
 import Image from 'next/image';
 
 function Featues() {
@@ -57,7 +57,9 @@ function Featues() {
         {/* Image */}
         <div className="flex justify-center ">
           <Image
-            src={Cam}
+            src="/cam.png"
+            width={500}
+            height={500}
             alt="E3000 Hydronic Heater"
             className=" shadow-lg w-3/4"
           />
