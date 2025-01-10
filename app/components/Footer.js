@@ -1,11 +1,12 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
-import face from '../assets/images/face.png'
-import insta from '../assets/images/insta.png'
-import link from '../assets/images/link.png'
-import location from '../assets/images/location.png'
-import email from  '../assets/images/email.png'
-import call from '../assets/images/call.png'
+import face from '../../public/face.png'
+import insta from '../../public/insta.png'
+import link from '../../public/link.png'
+import location from '../../public/location.png'
+import email from  '../../public/email.png'
+import call from '../../public/call.png'
 
 function Footer() {
   return (

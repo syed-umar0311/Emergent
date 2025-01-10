@@ -3,7 +3,7 @@ import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
-import logoWhite from '../assets/images/logoWhite.png'
+import logoWhite from '../../public/logoWHITE.png';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (

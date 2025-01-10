@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Cam from '../assets/images/Cam.png';
+import Cam from '../../public/cam.png';
 import Image from 'next/image';
 
 function Featues() {
